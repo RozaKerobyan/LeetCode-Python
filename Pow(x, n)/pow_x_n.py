@@ -11,6 +11,3 @@ class Solution(object):
             return half * half
         else:
             return x * self.myPow(x, n - 1)  
-
-res = Solution()    
-print(res.myPow(34.00515, -3))
