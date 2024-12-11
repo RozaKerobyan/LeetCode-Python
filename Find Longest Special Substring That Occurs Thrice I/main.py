@@ -17,6 +17,3 @@ class Solution(object):
                 j += 1
                 size += 1
         return max_length
-
-sol = Solution()
-print(sol.maximumLength("aaaa"))
