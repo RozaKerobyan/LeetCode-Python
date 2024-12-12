@@ -12,7 +12,3 @@ class Solution(object):
             gifts.append(reduced_value)
             gifts.sort(reverse=True)
         return result
-
-
-sol = Solution()
-print(sol.pickGifts([25,64,9,4,100], 4))
