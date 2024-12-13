@@ -16,6 +16,3 @@ class Solution(object):
                 if index < n -1:
                     nums[index + 1]  = -1
         return result
-
-sol = Solution()
-print(sol.findScore([2,1,3,4,5,2]))
