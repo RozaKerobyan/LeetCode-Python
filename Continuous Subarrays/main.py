@@ -14,6 +14,3 @@ class Solution(object):
             sub_count += right - left + 1
             right += 1
         return sub_count
-
-sol = Solution()
-print(sol.continuousSubarrays([5,4,2,4]))
