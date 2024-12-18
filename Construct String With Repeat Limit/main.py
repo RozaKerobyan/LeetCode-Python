@@ -27,7 +27,3 @@ class Solution:
                 heapq.heappush(max_heap, (val, count))
         
         return ''.join(result)
-
-
-sol = Solution()
-print(sol.repeatLimitedString("cczazcc", 3))   
